@@ -11,7 +11,7 @@ pipeline {
         NEXUS_USER = 'admin'
         NEXUS_PASS = 'admin123'
         RELEASE_REPO = 'Aprofile-release'
-        CENTRAL_REPO = 'apro-maven-central'
+        CENTRAL_REPO = 'Apro-maven-central'
         NEXUSIP = '172.31.10.199'
         NEXUSPORT = '8081'
         NEXUS_GRP_REPO = 'apro-maven-group'
