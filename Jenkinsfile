@@ -100,11 +100,11 @@ pipeline {
         stage('Ansible Deploy to staging'){
             steps {
                 ansiblePlaybook([
-                inventry : 'ansible/stage.inventry',
+                inventory : 'ansible/stage.inventory',
                 playbook : 'ansible/site.yml',
                 installation: 'ansible',
-                colourized: true,
-                credentialsId: 'applogin'
+                colorized: true,
+                credentialsId: 'applogin',
                 disableHostKeychecking: true,
                 extraVars   : [
                    	USER: "admin",
